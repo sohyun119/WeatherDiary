@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/weatherProject?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: thgus0803
+  jpa:
+    show-sql: true
+    database: mysql
+
+openweathermap:
+  key: 31ef3ce5016fbd8584618cd4e336dcb3
