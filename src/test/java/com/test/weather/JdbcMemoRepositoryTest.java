@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
-@Transactional // 실제 DB에 반영하지 않게 해줌
+@Transactional // 실제 DB에 반영하지 않게 해줌 (테스트 코드의 트랜잭션을 커밋하지않고, 롤백함): 테스트코드시 필수!
 public class JdbcMemoRepositoryTest {
 
     @Autowired
