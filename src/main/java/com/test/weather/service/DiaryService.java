@@ -44,7 +44,7 @@ public class DiaryService {
     }
 
     private DateWeather getWeatherFromApi(){
-        // open weather map 에서 날씨 데이터 가져오기 ***
+        // open weather map 에서 날씨 데이터 가져오기
         String weatherData = getWeatherString();
 
         // 받아온 날씨 json 파싱하기
