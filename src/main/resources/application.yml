@@ -12,4 +12,4 @@ spring:
     database: mysql
 
 openweathermap:
-  key: 31ef3ce5016fbd8584618cd4e336dcb3
+  key: 
